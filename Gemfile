@@ -9,10 +9,10 @@ gem "rake",     "~> 10.1.0", :require => false
 gem "yard",     "~> 0.8.0", :require => false
 
 # Test tools
-gem "cucumber", "~> 1.3.1"
+gem 'cucumber', '~> 2.0'
 gem "fivemat"
-gem "aruba",    "~> 0.5.1"
-gem "rspec",    "~> 2.12"
+gem 'aruba', '~> 0.7.4'
+gem 'rspec', '~> 3.0'
 gem "simplecov"
 
 gem "timecop",  "~> 0.6.3"
